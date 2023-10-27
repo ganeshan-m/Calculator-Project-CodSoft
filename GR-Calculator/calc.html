@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="display"></div>
+            
+            <div class="btncontainer">
+                <div>
+                    <button class="btn" value="7" onClick=enterNumber(this)>7</button>
+                    <button class="btn" value="8" onClick=enterNumber(this)>8</button>
+                    <button class="btn" value="9" onClick=enterNumber(this)>9</button>
+                    <button class="btn" value="/" onClick=enterOp(this)>/</button>
+                </div>
+                <div>
+                    <button class="btn" value="4" onClick=enterNumber(this)>4</button>
+                    <button class="btn" value="5" onClick=enterNumber(this)>5</button>
+                    <button class="btn" value="6" onClick=enterNumber(this)>6</button>
+                    <button class="btn" value="*" onClick=enterOp(this)>*</button>
+                </div>
+                <div>
+                    <button class="btn" value="1" onClick=enterNumber(this)>1</button>
+                    <button class="btn" value="2" onClick=enterNumber(this)>2</button>
+                    <button class="btn" value="3" onClick="enterNumber(this)">3</button>
+                    <button class="btn" value="-" onClick=enterOp(this)>-</button>
+                </div>
+                <div>
+                    <button class="btn" value="." onClick=enterNumber(this)>.</button>
+                    <button class="btn" value="0" onClick=enterNumber(this)>0</button>
+                    <button class="btn" value="=" onClick=ans(this)>=</button>
+                    <button class="btn" value="+" onClick=enterOp(this)>+</button>
+                </div>
+                <div style="width:100%;margin-left:40px">
+                    <button class="btn" value="del" onClick="del()">DEL</button>
+                    <button class="btn" value="ac" onClick="clearAll()">CA</button>
+                    <button class="btn" value="%" onClick=enterOp(this)>%</button>
+                </div>
+            </div>
+        
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
